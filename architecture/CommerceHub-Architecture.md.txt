@@ -1,0 +1,32 @@
+# CommerceHub Architecture
+
+Frontend:
+- Angular 21
+
+Backend:
+- .NET 9
+- Microservices
+
+Database:
+- Azure SQL
+
+Messaging:
+- Azure Service Bus
+
+Cache:
+- Redis
+
+Storage:
+- Azure Blob Storage
+
+Monitoring:
+- Application Insights
+
+Containerization:
+- Docker
+
+Orchestration:
+- AKS
+
+CI/CD:
+- Azure DevOps
