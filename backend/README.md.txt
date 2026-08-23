@@ -12,3 +12,7 @@ Planned Services:
 - Payment Service
 - Shipping Service
 - Notification Service
+
+.NET APIs
+Microservices
+Shared Libraries
