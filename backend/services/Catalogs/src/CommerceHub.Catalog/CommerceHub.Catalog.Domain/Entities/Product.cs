@@ -59,6 +59,15 @@ public sealed class Product : BaseEntity
         UpdatedOnUtc = DateTime.UtcNow;
     }
 
+    public void UpdateName(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            throw new DomainException("Product name is required.");
+
+        Name = name.Trim();
+        UpdatedOnUtc = DateTime.UtcNow;
+    }
+
     public void AddStock(int quantity)
     {
         if (quantity <= 0)
