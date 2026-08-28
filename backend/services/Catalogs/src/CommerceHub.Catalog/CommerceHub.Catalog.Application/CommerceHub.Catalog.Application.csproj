@@ -10,4 +10,12 @@
     <ProjectReference Include="..\CommerceHub.Catalog.Domain\CommerceHub.Catalog.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstractions\" />
+    <Folder Include="Features\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Common\" />
+    <Folder Include="DTOs\" />
+  </ItemGroup>
+
 </Project>
